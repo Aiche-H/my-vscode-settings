@@ -4,7 +4,7 @@ This repository holds all the settings, custom CSS, and JavaScript files I use t
 
 ## Features
 
-* **Settings Extensions:** [Listed here](./extensions.md)
+* **Extensions:** [Listed here](./extensions.md)
 * **Custom CSS:** Improve the look and feel of your code editor with custom styles.
 * **Custom JavaScript:** Add additional functionality to VS Code through custom scripts.
 
