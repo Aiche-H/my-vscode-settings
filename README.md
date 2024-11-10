@@ -8,8 +8,11 @@ From [Glenn Raya's](https://www.youtube.com/watch?v=9_I0bySQoCs) youtube video
 
 ## How it looks
 
+* **when the workspace is empty**
 ![empty workspace](./img/vis1.png)
+* **when you have a project open example HTML**
 ![with a project](./img/vis2.png)
+* **while using command palette**
 ![while using command palette](./img/vis3.png)
 
 ## Features
