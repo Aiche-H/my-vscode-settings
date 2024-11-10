@@ -23,8 +23,6 @@ From [Glenn Raya's](https://www.youtube.com/watch?v=9_I0bySQoCs) youtube video
 
 ## Installation
 
-There are two ways to use these customizations in your VS Code environment:
-
 **1. Using the "Custom CSS and JS Loader" extension:**
 
 1. Install the "Custom CSS and JS Loader" extension from the VS Code Marketplace.
