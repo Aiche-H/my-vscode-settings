@@ -78,8 +78,7 @@
       "iconColor": "#9bebff",
       "isBold": false,
       "scope": "workspace",
-      "styleComment": true,
-      "textDecorationStyle": "underline"
+      "styleComment": true
     },
     "note": {
       "backgroundColor": "tranparent", // note: is a note
