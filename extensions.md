@@ -33,6 +33,8 @@
 
 ![Babel JavaScript](./img/babel.png)
 ![Prettier - Code formatter](./img/prettier.png)
+![ES6-snippet](./img/ES6-snippet.png)
+![Prettier - Code formatter](./img/JS-boost.png)
 
 ## Git
 
@@ -53,13 +55,25 @@
 ![Markdown Navigation](./img/mdnav.png)
 ![markdownlint](./img/mdlint.png)
 
+## HTML
+
+![HTML end tag lables](./img/endtag-lable.png)
+![AutoRenameTag](./img/AutoRenameTag.png)
+
+## env
+
+![dotenv support](./img/dotenv.png)
+
 ## helpful
 
 ![Turbo console log](./img/clog.png)
 ![Find it faster](./img/fif.png)
 ![CSS peek](./img/peek.png)
 ![Code runner](./img/runner.png)
-![TODO tree](./img/TODO.png)
+![TODO tree](./img/Bettercomments.png)
+![comment-anchor](./img/comment-anchor.png)
+![change-case](./img/change-case.png)
+![TabOut](./img/TabOut.png)
 ![Error lense](./img/error.png)
 ![Live share](./img/share.png)
 ![Search by Sourcegraph](./img/sourcegraph.png)
