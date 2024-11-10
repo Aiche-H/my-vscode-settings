@@ -2,6 +2,12 @@
 
 This repository holds all the settings, custom CSS, and JavaScript files I use to personalize my Visual Studio Code experience.
 
+## How it looks
+
+![empty workspace](./img/vis1.png)
+![with a project](./img/vis2.png)
+![while using command palette](./img/vis3.png)
+
 ## Features
 
 * **Extensions:** [Listed here](./extensions.md)
