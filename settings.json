@@ -154,8 +154,8 @@
   "vscode-exports-autocomplete.enable": true,
   "vscode-exports-autocomplete.enableNpmDependencies": true,
   "vscode_custom_css.imports": [
-    "file:///C:/path/to/custom/CSS",
-    "file:///C:/path/to/custom/JS"
+     "file:///C:/path/to/your/custom.css",
+     "file:///C:/path/to/your/custom.js"
   ],
   "window.confirmSaveUntitledWorkspace": false,
   "window.newWindowDimensions": "inherit",
