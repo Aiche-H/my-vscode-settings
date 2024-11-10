@@ -61,14 +61,11 @@
   "files.trimTrailingWhitespace": true,
   "git.confirmSync": false,
   "git.decorations.enabled": false,
-  "git.defaultCloneDirectory": "C:/path/path",
+  "git.defaultCloneDirectory": "C:/DevProjects/02_projects",
   "gitlens.hovers.enabled": false,
   "gitlens.statusBar.enabled": false,
   "liveServer.settings.donotShowInfoMsg": true,
   "problems.decorations.enabled": false,
-  "projectManager.git.baseFolders": ["C:\\development-projects"],
-  "projectManager.git.maxDepthRecursion": 8,
-  "projectManager.projectsLocation": "C:\\path\\path",
   "scm.diffDecorations": "none",
   "search.exclude": {
     "**/_ide_helper.php": true,
@@ -92,8 +89,8 @@
   "vscode-exports-autocomplete.enable": true,
   "vscode-exports-autocomplete.enableNpmDependencies": true,
   "vscode_custom_css.imports": [
-    "file:///C:/Users/<username>/Documents/custom.css",
-    "file:///C:/Users/<username>/Documents/custom.js"
+    "file:///C:/Users/henri/Documents/custom.css",
+    "file:///C:/Users/henri/Documents/custom.js"
   ],
   "window.confirmSaveUntitledWorkspace": false,
   "window.newWindowDimensions": "inherit",

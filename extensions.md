@@ -37,7 +37,6 @@
 ## Git
 
 ![gitignore](./img/ignore.png)
-![project manager](./img/manager.png)
 ![github pull requests](./img/pull.png)
 ![Git graph](./img/graph.png)
 ![Git history](./img/history.png)
