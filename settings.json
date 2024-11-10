@@ -61,7 +61,7 @@
   "files.trimTrailingWhitespace": true,
   "git.confirmSync": false,
   "git.decorations.enabled": false,
-  "git.defaultCloneDirectory": "C:/DevProjects/02_projects",
+  "git.defaultCloneDirectory": "C:/path/to/your/project/folder",
   "gitlens.hovers.enabled": false,
   "gitlens.statusBar.enabled": false,
   "liveServer.settings.donotShowInfoMsg": true,
