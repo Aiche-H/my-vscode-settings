@@ -50,7 +50,7 @@
   "editor.snippetSuggestions": "top",
   "editor.stickyScroll.enabled": false,
   "editor.stickyScroll.scrollWithEditor": false,
-  "editor.suggestFontSize": 16,
+  "editor.suggestFontSize": 18,
   "editor.suggestLineHeight": 30,
   "editor.wordWrap": "on",
   "editor.wordWrapColumn": 100,
@@ -80,7 +80,7 @@
   },
   "search.useIgnoreFiles": false,
   "terminal.integrated.defaultProfile.windows": "PowerShell",
-  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontSize": 18,
   "terminal.integrated.lineHeight": 1.5,
   "terminal.integrated.stickyScroll.enabled": false,
   "vscode-exports-autocomplete.addImportsOnPaste": true,
@@ -89,8 +89,8 @@
   "vscode-exports-autocomplete.enable": true,
   "vscode-exports-autocomplete.enableNpmDependencies": true,
   "vscode_custom_css.imports": [
-    "file:///C:/Users/henri/Documents/custom.css",
-    "file:///C:/Users/henri/Documents/custom.js"
+     "file:///C:/path/to/your/custom.css",
+     "file:///C:/path/to/your/custom.js"
   ],
   "window.confirmSaveUntitledWorkspace": false,
   "window.newWindowDimensions": "inherit",
