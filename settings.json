@@ -14,75 +14,106 @@
   "[markdown]": {
     "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
   },
-  "better-comments.tags": [
-    {
-      "backgroundColor": "#FFFDD0", // ANCHOR
-      "bold": false,
-      "color": "#000000",
-      "italic": false,
-      "strikethrough": false,
-      "tag": "ANCHOR",
-      "underline": false
-    },
-    {
-      "backgroundColor": "#FF2D00", // FIXME
-      "bold": false,
-      "color": "#000000",
-      "italic": false,
-      "strikethrough": false,
-      "tag": "FIXME",
-      "underline": false
-    },
-    {
-      "backgroundColor": "#3498DB", // NOTE
-      "bold": false,
-      "color": "#000000",
-      "italic": false,
-      "strikethrough": false,
-      "tag": "NOTE",
-      "underline": false
-    },
-    {
-      "backgroundColor": "#474747", // DISMISS
-      "bold": false,
-      "color": "#000000",
-      "italic": false,
-      "strikethrough": true,
-      "tag": "DISMISS",
-      "underline": false
-    },
-    {
-      "backgroundColor": "#FF8C00", // TODO
-      "bold": false,
-      "color": "#000000",
-      "italic": false,
-      "strikethrough": false,
-      "tag": "TODO",
-      "underline": false
-    },
-    {
-      "backgroundColor": "#98C379", // REVIEW
-      "bold": false,
-      "color": "#000000",
-      "italic": false,
-      "strikethrough": false,
-      "tag": "REVIEW",
-      "underline": false
-    },
-    {
-      "backgroundColor": "#A020F0", // STUB
-      "bold": false,
-      "color": "#000000",
-      "italic": false,
-      "strikethrough": false,
-      "tag": "STUB",
-      "underline": false
-    }
+  "auto-rename-tag.activationOnLanguage": [
+    "html",
+    "xml",
+    "php",
+    "javascript",
+    "TypeScript"
   ],
   "breadcrumbs.enabled": false,
   "codeium.enableConfig": {
     "*": false
   },
+  "commentAnchors.epic.seqStep": 3,
+  "commentAnchors.scrollPosition": "center",
+  "commentAnchors.tags.anchors": {
+    "anchor": {
+      "backgroundColor": "tranparent", // anchor[id="my-anchor"]: is an anchor with an id
+      "borderRadius": 6,
+      "borderStyle": "1px solid #FFFDD0",
+      "highlightColor": "#FFFDD0",
+      "iconColor": "#FFFDD0",
+      "isBold": false,
+      "scope": "file",
+      "styleComment": true
+    },
+    "dismiss": {
+      "backgroundColor": "tranparent", // dismiss: the comment
+      "borderRadius": 6,
+      "borderStyle": "1px solid #000000",
+      "highlightColor": "#000000",
+      "iconColor": "#000000",
+      "isBold": false,
+      "scope": "workspace",
+      "styleComment": true,
+      "textDecorationStyle": "line-through"
+    },
+    "fix": {
+      "backgroundColor": "tranparent", // fix: needs a fix
+      "borderRadius": 6,
+      "borderStyle": "1px solid #FF2D00",
+      "highlightColor": "#FF2D00",
+      "iconColor": "#FF2D00",
+      "isBold": false,
+      "scope": "workspace",
+      "styleComment": true
+    },
+    "info": {
+      "backgroundColor": "tranparent", // info: is an info part
+      "borderRadius": 6,
+      "borderStyle": "1px solid #f4caff",
+      "highlightColor": "#f4caff",
+      "iconColor": "#f4caff",
+      "isBold": false,
+      "scope": "file",
+      "styleComment": true
+    },
+    "link": {
+      "backgroundColor": "tranparent", // link: #my-anchor
+      "behavior": "link",
+      "borderRadius": 6,
+      "borderStyle": "1px solid #9bebff",
+      "highlightColor": "#9bebff",
+      "iconColor": "#9bebff",
+      "isBold": false,
+      "scope": "workspace",
+      "styleComment": true,
+      "textDecorationStyle": "underline"
+    },
+    "note": {
+      "backgroundColor": "tranparent", // note: is a note
+      "borderRadius": 6,
+      "borderStyle": "1px solid #c0ffe0",
+      "highlightColor": "#c0ffe0",
+      "iconColor": "#c0ffe0",
+      "scope": "file",
+      "styleComment": true
+    },
+    "review": {
+      "backgroundColor": "tranparent", // review: is a review request
+      "borderRadius": 6,
+      "borderStyle": "1px solid #98C379",
+      "highlightColor": "#98C379",
+      "iconColor": "#98C379",
+      "isBold": false,
+      "scope": "workspace",
+      "styleComment": true
+    },
+    "todo": {
+      "backgroundColor": "tranparent", // todo:  is a todo
+      "borderRadius": 6,
+      "borderStyle": "1px solid #FF8C00",
+      "highlightColor": "#FF8C00",
+      "iconColor": "#FF8C00",
+      "isBold": false,
+      "scope": "workspace",
+      "styleComment": true
+    }
+  },
+  "commentAnchors.workspace.excludeFiles": "**/{node_modules,.git,.idea,target,out,build,bin,obj,vendor}/**/*",
+  "commentAnchors.workspace.lazyLoad": true,
+  "commentAnchors.workspace.maxFiles": 50,
   "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.renderSideBySide": false,
   "editor.colorDecorators": false,
@@ -126,7 +157,7 @@
   "files.trimTrailingWhitespace": true,
   "git.confirmSync": false,
   "git.decorations.enabled": false,
-  "git.defaultCloneDirectory": "C:/path/to/project/folder",
+  "git.defaultCloneDirectory": "C:/path/to/projects",
   "gitlens.hovers.enabled": false,
   "gitlens.statusBar.enabled": false,
   "liveServer.settings.donotShowInfoMsg": true,
@@ -154,8 +185,8 @@
   "vscode-exports-autocomplete.enable": true,
   "vscode-exports-autocomplete.enableNpmDependencies": true,
   "vscode_custom_css.imports": [
-     "file:///C:/path/to/your/custom.css",
-     "file:///C:/path/to/your/custom.js"
+    "file:///C:/path/to/custom.css",
+    "file:///C:/path/to/custom.js"
   ],
   "window.confirmSaveUntitledWorkspace": false,
   "window.newWindowDimensions": "inherit",
@@ -170,5 +201,6 @@
   "workbench.statusBar.visible": false,
   "workbench.tips.enabled": false,
   "workbench.tree.enableStickyScroll": false,
-  "zenMode.restore": false
+  "zenMode.restore": false,
+  "editor.renderWhitespace": "none"
 }

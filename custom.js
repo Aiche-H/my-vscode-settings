@@ -84,3 +84,19 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 });
+
+// normal comments
+
+//anchor[id="thisone"] this is an achor comment
+
+//fix this is a fix this comment
+
+//info this is an info comment
+
+//note this is a note comment
+
+//dismiss this comment
+
+//review this is a review comment
+
+//link #thisone
