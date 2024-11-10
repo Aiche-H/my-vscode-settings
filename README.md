@@ -2,6 +2,10 @@
 
 This repository holds all the settings, custom CSS, and JavaScript files I use to personalize my Visual Studio Code experience.
 
+## custom CSS and JS
+
+From [Glenn Raya's](https://www.youtube.com/watch?v=9_I0bySQoCs) youtube video
+
 ## How it looks
 
 ![empty workspace](./img/vis1.png)
